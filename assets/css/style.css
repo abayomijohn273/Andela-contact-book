@@ -1,0 +1,57 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "Lucida Sans";
+}
+.container {
+    overflow: hidden;
+}
+table {
+    cursor: pointer;
+
+}
+.tab {
+    float: left;
+    margin:30px;
+}
+.tab-1 {
+
+}
+.tab-2 {
+    margin-left: 70px;
+    font-size: 20px;
+}
+.tab-2 input{
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+}
+.tab-2 input[type='text'], input[type='email'], input[type='tel'] {
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+    font-family: "Lucida Sans";
+    color: black;
+}
+.tab-2 input[type='text']:focus, input[type='email']:focus, input[type='tel']:focus {
+    border-color: cornflowerblue;
+    background-color: royalblue;
+    color: white;
+}
+.tab-2 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.tab-2 button.save {
+    background-color: royalblue;
+}
+.tab-2 button.edit {
+    background-color: darkorange;
+}
+.tab-2 button.delete {
+    background-color: darkred;
+}
